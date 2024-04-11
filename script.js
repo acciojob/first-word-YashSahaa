@@ -1,7 +1,11 @@
 function firstWord(s) {
   // your code here
 	let arr = s.split(" ")
-	return arr[0]
+	for(let i of arr){
+	  if(i!=''){
+	    return i
+	  }
+}
 }
 
 // Do not change the code below
